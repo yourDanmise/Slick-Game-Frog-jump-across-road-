@@ -11,7 +11,7 @@ Frog want to jump across the road. There are so many cars and bus on the road. W
   In the second level, the frog will also lose one life if hit by a vehicle. The frog will not lose one life if hit by a bulldozer. Instead, it will be pushed in the direction of travel unless the frog were to be pushed off the screen. The turtles will also save the frog's life, but they will disappear under the water occasionally. The blue frog that randomly appears on the log will gain the frog one life if eaten.
 
 ## How to play
-  1.clone the repo to the local PC
+    1.clone the repo to the local PC
   2.import the project in the Eclipse
   3.If the lack of the Slick Libraries, import all of the .jar files and .dll files (Windows), or .dylib files (OSX), or .so files (Linux)
   4.right click each of the .jar files and press 'Build Path -- Add to build path'
