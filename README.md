@@ -1,16 +1,14 @@
 # Slick-Game-Frog-jump-across-road-
-===================================
 Frog want to jump across the road. There are so many cars and bus on the road. Writing in java language.
 
 Introduction
-———————————
-This is a little pixel game created by Java (Version: 10.0.2). The LWJGL (Light-Weight Java Gaming Library) was used for its graphics and input.
+  This is a little pixel game created by Java (Version: 10.0.2). The LWJGL (Light-Weight Java Gaming Library) was used for its graphics and input.
 
-There are two levels of the game. The player will control the frog by press 'Up', 'Down', 'Left' and 'Right' on the keyboard.
+  There are two levels of the game. The player will control the frog by press 'Up', 'Down', 'Left' and 'Right' on the keyboard.
 
-In the first level, the frog initially has three lives. Everytime when the frog is crashed by a car or falls into the river, the frog will lose one life. The empty tiles at the top of the screen is the game goal. When the frog reaches all the five tiles, the game will be proceeded to the next level.
+  In the first level, the frog initially has three lives. Everytime when the frog is crashed by a car or falls into the river, the frog will lose one life. The empty tiles at the top of the screen is the game goal. When the frog reaches all the five tiles, the game will be proceeded to the next level.
 
-In the second level, the frog will also lose one life if hit by a vehicle. The frog will not lose one life if hit by a bulldozer. Instead, it will be pushed in the direction of travel unless the frog were to be pushed off the screen. The turtles will also save the frog's life, but they will disappear under the water occasionally. The blue frog that randomly appears on the log will gain the frog one life if eaten.
+  In the second level, the frog will also lose one life if hit by a vehicle. The frog will not lose one life if hit by a bulldozer. Instead, it will be pushed in the direction of travel unless the frog were to be pushed off the screen. The turtles will also save the frog's life, but they will disappear under the water occasionally. The blue frog that randomly appears on the log will gain the frog one life if eaten.
 
 How to play
 clone the repo to the local PC
