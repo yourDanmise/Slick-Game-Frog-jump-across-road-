@@ -1,6 +1,9 @@
 # Slick-Game-Frog-jump-across-road-
+===================================
 Frog want to jump across the road. There are so many cars and bus on the road. Writing in java language.
+
 Introduction
+———————————
 This is a little pixel game created by Java (Version: 10.0.2). The LWJGL (Light-Weight Java Gaming Library) was used for its graphics and input.
 
 There are two levels of the game. The player will control the frog by press 'Up', 'Down', 'Left' and 'Right' on the keyboard.
