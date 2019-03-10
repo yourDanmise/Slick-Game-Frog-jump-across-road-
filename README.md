@@ -11,11 +11,11 @@ Introduction
   In the second level, the frog will also lose one life if hit by a vehicle. The frog will not lose one life if hit by a bulldozer. Instead, it will be pushed in the direction of travel unless the frog were to be pushed off the screen. The turtles will also save the frog's life, but they will disappear under the water occasionally. The blue frog that randomly appears on the log will gain the frog one life if eaten.
 
 How to play
-clone the repo to the local PC
-import the project in the Eclipse
-If the lack of the Slick Libraries, import all of the .jar files and .dll files (Windows), or .dylib files (OSX), or .so files (Linux)
+  clone the repo to the local PC
+  import the project in the Eclipse
+  If the lack of the Slick Libraries, import all of the .jar files and .dll files (Windows), or .dylib files (OSX), or .so files (Linux)
 right click each of the .jar files and press 'Build Path -- Add to build path'
-right click lwjgl.jar from the new-appeared 'Refferenced Libraries', press 'Properties -- Native Library -- External Folder'
+  right click lwjgl.jar from the new-appeared 'Refferenced Libraries', press 'Properties -- Native Library -- External Folder'
 App.java is the main entrance of the project.
 Features
-Object-orented programming was used to the project. When the game is started, App.java initialize the new World, which contains all the elements(sprites). The class Sprite is the most base class because every element is a sprite in this pixel game. The Sprite class contains lots of methods that makes very sense in terms of a sprite. The render() method to render the sprite, the update() method in case of the sprite will be able to move. Then every other class will inherit the base class and will have their own new features or just override the father's method. For instance, the update() and moveAlong() methods in class Frog will not be the same with that in ExtraLife.
+  Object-orented programming was used to the project. When the game is started, App.java initialize the new World, which contains all the elements(sprites). The class Sprite is the most base class because every element is a sprite in this pixel game. The Sprite class contains lots of methods that makes very sense in terms of a sprite. The render() method to render the sprite, the update() method in case of the sprite will be able to move. Then every other class will inherit the base class and will have their own new features or just override the father's method. For instance, the update() and moveAlong() methods in class Frog will not be the same with that in ExtraLife.
